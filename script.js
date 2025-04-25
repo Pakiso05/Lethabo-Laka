@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Countdown logic
   const countdown = document.getElementById('countdown');
-  const birthday = new Date("May 9, 2025 00:00:00").getTime();
+  const birthday = new Date("May 09, 2025 00:00:00").getTime();
 
   const interval = setInterval(() => {
     const now = new Date().getTime();
